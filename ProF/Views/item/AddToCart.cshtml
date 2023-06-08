@@ -1,0 +1,31 @@
+﻿@model IEnumerable<item>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index Food</h1>
+
+<table class="table" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Food Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <form method="post">
+            <tr>
+                    @*<td width="10%"><input asp-for="item_id" value="@obj.item_id" readonly /> </td>
+            <td width="30%"><input asp-for="item_Name" value="@obj.item_Name" readonly /></td>*@
+                    @*Continue with other fields*@
+                <td><button asp-controller="item" asp-action="Cart" type="submit">Add</button></td>
+            </tr>
+            </form>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,830 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1234567890abcdefghijklmnopqrstuvwxy" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>@ViewData["Title"] - Your_REST</title>
+@{
+    Layout = "";
+}
+<html>
+<head>
+</head>
+<body>
+
+    <div style="margin-left:7% ;margin-top:5% ;position:relative">
+        <a asp-action="wellcome" asp-controller="Register_User">	<i style="color:#000;" class="fa">&#xf053;</i> </a>
+    </div>
+    <div class="spp"> <b>Special offers</b> </div>
+    <div align="right" style="margin-right:15%;margin-top:-1.8%;">
+         <a asp-action="cart" asp-controller="item">	<i style="color:#000; font-size:24px;" class="fa">&#xf07a;</i> </a>
+    </div>
+    <div align="right" style="margin-right:8%;margin-top:-2.3%;">
+         <a asp-action="Index_Search" asp-controller="search">	<i style="color:#000;font-size:24px;" class="fa">&#xf002;</i> </a>
+    </div>
+    <table style="margin-top:3%;margin-left:13%; width:35%;">
+        <tr>
+            <td style="  width: 300px;">
+                <div>
+                    <div style="font-family:'Gill Sans MT';margin-top:-0%;margin-left:11%; overflow: hidden;white-space: nowrap;font-size:24px;color: #000000;">
+                        <span><b>Shimp Pizza</b></span>
+                    </div>
+
+                    <div style="margin-left:13%;margin-top:10%;">
+                        <span>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="star">&#9734;</i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div style="margin-left:10.1%;">
+                    <br />
+                    <input type="checkbox" id="heart-checkbox">
+                    <label for="heart-checkbox">
+                        <span class="fa fa-heart"></span>
+                    </label>
+                </div>
+                <div style="margin-left:26%;margin-top:-12%;">$70</div>
+                <div class="cart-container">
+
+                    <div class="cart-controls">
+                        <button class="minus-btn" onclick="decrement()">-</button>
+                    </div>
+                    <div class="cart-counter">
+                        <span class="counter">0</span>
+                    </div>
+                    <div class="cart-controls">
+                        <button class="plus-btn" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">0</span>
+                </div>
+
+            </td>
+            <td>
+                <img src="~/images_2/rectangle 71.png" style="margin-left:1%;" />
+            </td>
+        </tr>
+        <tr>
+            <td style="  width: 300px;">
+                <div>
+                    <div style="font-family:'Gill Sans MT';margin-top:-0%;margin-left:10%; overflow: hidden;white-space: nowrap;font-size:22px;color: #000000;">
+                        <span><b>Macaroni cheese</b></span>
+                    </div>
+
+                    <div style="margin-left:13%;margin-top:10%;">
+                        <span>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#9734;</i>
+                            <i class="fa" id="star">&#9734;</i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div style="margin-left:10.1%;">
+                    <br />
+                    <input type="checkbox" id="heart-checkbox">
+                    <label for="heart-checkbox">
+                        <span class="fa fa-heart"></span>
+                    </label>
+                </div>
+                <div style="margin-left:26%;margin-top:-12%;">$50</div>
+                <div class="cart-container">
+
+                    <div class="cart-controls">
+                        <button class="minus-btn" onclick="decrement()">-</button>
+                    </div>
+                    <div class="cart-counter">
+                        <span class="counter">0</span>
+                    </div>
+                    <div class="cart-controls">
+                        <button class="plus-btn" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">0</span>
+                </div>
+
+            </td>
+            <td>
+                <img src="~/images_2/rectangle 73.png" style="margin-left:1%;" />
+            </td>
+        </tr>
+        <tr>
+            <td style="  width: 300px;">
+                <div>
+                    <div style="font-family:'Gill Sans MT';margin-top:-0%;margin-left:11%; overflow: hidden;white-space: nowrap;font-size:24px;color: #000000;">
+                        <span><b>Salad</b></span>
+                    </div>
+
+                    <div style="margin-left:13%;margin-top:10%;">
+                        <span>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="star">&#9734;</i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div style="margin-left:10.1%;">
+                    <br />
+                    <input type="checkbox" id="heart-checkbox">
+                    <label for="heart-checkbox">
+                        <span class="fa fa-heart"></span>
+                    </label>
+                </div>
+                <div style="margin-left:26%;margin-top:-12%;">$45</div>
+                <div class="cart-container">
+
+                    <div class="cart-controls">
+                        <button class="minus-btn" onclick="decrement()">-</button>
+                    </div>
+                    <div class="cart-counter">
+                        <span class="counter">0</span>
+                    </div>
+                    <div class="cart-controls">
+                        <button class="plus-btn" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">0</span>
+                </div>
+
+            </td>
+            <td>
+                <img src="~/images_2/rectangle 72.png" style="margin-left:1%;" />
+            </td>
+        </tr>
+
+    </table>
+    <table style="margin-top:3%;margin-left:10%; width:35%;">
+        <tr>
+            <td style="  width: 300px;">
+                <div>
+                    <div style="font-family:'Gill Sans MT';margin-top:-0%;margin-left:11%; overflow: hidden;white-space: nowrap;font-size:24px;color: #000000;">
+                        <span><b>Meat with veg</b></span>
+                    </div>
+
+                    <div style="margin-left:13%;margin-top:10%;">
+                        <span>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="star">&#9734;</i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div style="margin-left:10.1%;">
+                    <br />
+                    <input type="checkbox" id="heart-checkbox">
+                    <label for="heart-checkbox">
+                        <span class="fa fa-heart"></span>
+                    </label>
+                </div>
+                <div style="margin-left:26%;margin-top:-12%;">$80</div>
+                <div class="cart-container">
+
+                    <div class="cart-controls">
+                        <button class="minus-btn" onclick="decrement()">-</button>
+                    </div>
+                    <div class="cart-counter">
+                        <span class="counter">0</span>
+                    </div>
+                    <div class="cart-controls">
+                        <button class="plus-btn" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">0</span>
+                </div>
+
+            </td>
+            <td>
+                <img src="~/images_2/rectangle 71 (1).png" style="margin-left:1%;" />
+            </td>
+        </tr>
+        <tr>
+            <td style="  width: 300px;">
+                <div>
+                    <div style="font-family:'Gill Sans MT';margin-top:-0%;margin-left:11%; overflow: hidden;white-space: nowrap;font-size:14px;color: #000000;">
+                        <span><b>Toast with honey and fruits</b></span>
+                    </div>
+
+                    <div style="margin-left:13%;margin-top:10%;">
+                        <span>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="star">&#9734;</i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div style="margin-left:10.1%;">
+                    <br />
+                    <input type="checkbox" id="heart-checkbox">
+                    <label for="heart-checkbox">
+                        <span class="fa fa-heart"></span>
+                    </label>
+                </div>
+                <div style="margin-left:26%;margin-top:-12%;">$75</div>
+                <div class="cart-container">
+
+                    <div class="cart-controls">
+                        <button class="minus-btn" onclick="decrement()">-</button>
+                    </div>
+                    <div class="cart-counter">
+                        <span class="counter">0</span>
+                    </div>
+                    <div class="cart-controls">
+                        <button class="plus-btn" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">0</span>
+                </div>
+
+            </td>
+            <td>
+                <img src="~/images_2/rectangle 73 (1).png" style="margin-left:1%;" />
+            </td>
+        </tr>
+        <tr>
+            <td style="  width: 300px;">
+                <div>
+                    <div style="font-family:'Gill Sans MT';margin-top:-0%;margin-left:11%; overflow: hidden;white-space: nowrap;font-size:22px;color: #000000;">
+                        <span><b>Chicken burger</b></span>
+                    </div>
+
+                    <div style="margin-left:13%;margin-top:10%;">
+                        <span>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="stars">&#xf005;</i>
+                            <i class="fa" id="star">&#9734;</i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div style="margin-left:10.1%;">
+                    <br />
+                    <input type="checkbox" id="heart-checkbox">
+                    <label for="heart-checkbox">
+                        <span class="fa fa-heart"></span>
+                    </label>
+                </div>
+                <div style="margin-left:26%;margin-top:-12%;">$60</div>
+                <div class="cart-container">
+
+                    <div class="cart-controls">
+                        <button class="minus-btn" onclick="decrement()">-</button>
+                    </div>
+                    <div class="cart-counter">
+                        <span class="counter">0</span>
+                    </div>
+                    <div class="cart-controls">
+                        <button class="plus-btn" onclick="increment()">+</button>
+                    </div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="counter">0</span>
+                </div>
+
+            </td>
+            <td>
+                <img src="~/images_2/rectangle 72 (1).png" style="margin-left:1%;" />
+
+            </td>
+        </tr>
+
+
+    </table>
+   </div>
+
+</body>
+<style>
+    body {
+        overflow-y: hidden; /*هنا بنلغى الاسكرول الراسي*/
+    }
+
+    .comments {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-left: 10%;
+        border: none;
+        width: 50%;
+    }
+
+        .comments h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .comments form {
+            margin-bottom: 10px;
+        }
+
+        .comments textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+            margin-bottom: 10px;
+        }
+
+        .comments button {
+            background-color: #F9BD58;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            .comments button:hover {
+                background-color: orange;
+            }
+
+        .comments ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .comments li {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+            .comments li:last-child {
+                margin-bottom: 0;
+            }
+
+        .comments .comment-author {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .comments .comment-date {
+            font-style: italic;
+            margin-left: 10px;
+            color: #aaa;
+        }
+
+    .star-rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+
+        .star-rating > span {
+            display: inline-block;
+            position: relative;
+            width: 1.1em;
+        }
+
+            .star-rating > span:hover:before,
+            .star-rating > span:hover ~ span:before {
+                content: "\2605";
+                position: absolute;
+                color: #FFD700;
+            }
+
+            .star-rating > span:before {
+                content: "\2606";
+                position: absolute;
+            }
+
+    .rating {
+        display: inline-block;
+        font-size: 0;
+    }
+
+        .rating .fa {
+            font-size: 40px;
+            cursor: pointer;
+            transition: color 0.25s ease;
+        }
+
+            .rating .fa:hover {
+                color: #F9BD38;
+            }
+
+            .rating .fa.active,
+            .rating .fa.selected {
+                color: #F9BD38;
+            }
+
+            .rating .fa.hover {
+                color: #F9BD38;
+            }
+
+</style>
+<style>
+
+    .cart-container {
+        display: flex;
+        font-size: 15px;
+        width: 21%;
+        height: 4%;
+        border: 3px solid #f9bd38;
+        border-radius: 10px;
+        margin-left: 60%;
+        margin-top: -10.1%;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .cart-controls {
+        display: flex;
+        margin-top: 1px;
+        margin-left: 1px;
+        margin-right: 2px;
+        padding: -20px;
+    }
+
+    .cart-counter {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .cart-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: #000;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 35%;
+        margin-top: -17.1%;
+    }
+
+        .cart-icon .counter {
+            position: absolute;
+            top: 5px;
+            right: 8px;
+            color: #000;
+            font-size: 10px;
+            display: flex;
+        }
+
+    .minus-btn {
+        width: 15px;
+        height: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .plus-btn {
+        width: 15px;
+        height: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+        .minus-btn:hover,
+        .plus-btn:hover {
+            background-color: azure;
+        }
+
+        .minus-btn:focus,
+        .plus-btn:focus {
+            outline: none;
+        }
+
+    .heart-label {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border-radius: 80%;
+        border: 1px solid;
+        border-color: #f2bd38;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    label > .fa-heart:before {
+        content: "\f08a";
+        color: #f2bd38;
+    }
+
+    input[type="checkbox"]:checked + label > .fa-heart:before {
+        content: "\f004";
+        color: red;
+    }
+
+
+    .fa {
+        font-size: 29px;
+        color: black;
+    }
+
+    .back-button {
+        border: none; /*هنا بنشيل البوردر من الزرار*/
+        background-color: #ffffff; /*هنا لون خلفية الزرار*/
+        height: 38px; /*يحدد ارتفاع الزر بـ 48 بيكسل */
+        width: 40px; /*يحدد عرض الزر بـ 50 بيكسل*/
+        border-radius: 50%; /*يجعل حواف الزر دائرية بنسبة 50% من ارتفاع الزر*/
+        transition: all 0.3s ease; /*يعمل على إضافة تأثير تدريجي على الخصائص المحددة عند حدوث تغييرات عليها.*/
+        font-size: 50px;
+    }
+
+    .triangle-button-left {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-right: 40px solid #f2bd38;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-left: none;
+    }
+
+        .triangle-button-left:hover {
+            border-right: 20px solid #f2bd38;
+            color: white;
+        }
+
+    .triangle-button-right {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 40px solid #f2bd38;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-right: none;
+    }
+
+        .triangle-button-right:hover {
+            border-left: 20px solid #f2bd38;
+            color: white;
+        }
+
+    #stars {
+        color: #f2bd38; /* لون النجوم */
+        font-size: 24px; /* حجم النجوم */
+    }
+
+    #star {
+        margin: 0 2px; /* المسافة بين النجوم */
+        color: blanchedalmond;
+        border-color: black;
+    }
+
+</style>
+<style>
+    .triangle-button-left {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-right: 40px solid #f2bd38;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-left: none;
+    }
+
+        .triangle-button-left:hover {
+            border-right: 20px solid #f2bd38;
+            color: white;
+        }
+
+    .triangle-button-right {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+        border-left: 40px solid #f2bd38;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-right: none;
+    }
+
+        .triangle-button-right:hover {
+            border-left: 20px solid #f2bd38;
+            color: white;
+        }
+
+    .spp {
+        margin-left: 12%;
+        font-size: 35px;
+        margin-top: -2.5%;
+    }
+
+    .imm {
+        width: 20px;
+        height: 20px;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+    .im {
+        position: absolute;
+        left: 90%;
+        margin-top: 2%;
+    }
+
+    .mm {
+        float: right;
+        margin-right: 2%;
+        width: 25px;
+        height: 25px;
+        margin-top: 2%;
+    }
+
+    .logo {
+        margin-left: 60%;
+        width: 100px;
+        height: 100px
+    }
+
+    .shrim {
+        font-size: 20px
+    }
+
+    .second {
+        display: inline-block;
+        margin-left: 25%;
+    }
+
+    .numm {
+        width: 55px;
+        color: #D8A533;
+        border-color: #D8A533;
+        border-radius: 10px
+    }
+
+    .third {
+        display: inline-block;
+        margin-left: 7%;
+    }
+
+    .fourth_div {
+        display: inline-block;
+        margin-left: 25%;
+    }
+
+    .fifth_div {
+        display: inline-block;
+        margin-left: 7%;
+    }
+
+    .toast {
+        display: inline-block;
+        margin-left: 20%;
+    }
+
+    table {
+        margin-left: 12%;
+        display: inline-block;
+    }
+
+    .arow {
+        width: 45px;
+        height: 50px;
+        margin-bottom: 15%
+    }
+
+    .arrow {
+        width: 45px;
+        height: 50px;
+        float: right;
+        margin-top: 15%
+    }
+</style>
+<script>
+    var stars = document.querySelectorAll(".rating .fa");
+
+    stars.forEach(function (star, index) {
+        star.addEventListener("click", function () {
+            var rating = index + 1;
+            for (var i = 0; i < stars.length; i++) {
+                if (i < rating) {
+                    stars[i].classList.add("active");
+                } else {
+                    stars[i].classList.remove("active");
+                }
+            }
+        });
+
+        star.addEventListener("mouseover", function () {
+            var rating = index + 1;
+            for (var i = 0; i < rating; i++) {
+                stars[i].classList.add("hover");
+            }
+        });
+
+        star.addEventListener("mouseout", function () {
+            var rating = index + 1;
+            for (var i = 0; i < stars.length; i++) {
+                stars[i].classList.remove("hover");
+            }
+        });
+    });
+    let counter = 0;
+    const counterElement = document.querySelector('.counter');
+    const cartCounterElement = document.querySelector('.cart-icon .counter');
+
+    function increment() {
+        counter++;
+        counterElement.innerText = counter;
+        cartCounterElement.innerText = counter;
+    }
+
+    function decrement() {
+        if (counter > 0) {
+            counter--;
+            counterElement.innerText = counter;
+            cartCounterElement.innerText = counter;
+        }
+    }
+</script>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/Homepage/Logout";
+        }, 100000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+
+</html>

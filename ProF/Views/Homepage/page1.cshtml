@@ -1,0 +1,130 @@
+﻿@{
+    Layout = "";
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"><title>@ViewData["Title"] - Your_REST</title>
+
+<style>
+    /* *{
+                margin: 0;
+                padding: 0;
+                margin-top:-7%;
+            }*/
+    body {
+        background-image: url(/img/i1.png); /* تعيين صورة الخلفية */
+        background-size: cover; /* تغطية الشاشة بالصورة */
+        width: 80%; /* تحديد عرض الجسم */
+        height: 50%; /* تحديد ارتفاع الجسم */
+    }
+
+    .h1 {
+        /* تحديد لون النص */
+        color: #F9BD38;
+        /* تحديد موقع العنصر بالنسبة للوالد */
+        position: absolute;
+        left: 27%;
+        top: 14%;
+        /* تحديد نوع الخط وحجمه */
+        font-family: Alkatra;
+        font-size: 90px;
+        /* تحديد البادينج والهامش الأيمن */
+        padding: 90px;
+        margin-right: 10%;
+    }
+
+    .p {
+        position: absolute; /* تحديد وضع العنصر بناءً على العناصر الأخرى */
+        left: 40%; /* تحديد موقع العنصر من الجانب الأيسر */
+        top: 52%; /* تحديد موقع العنصر من الأعلى */
+        font-family: Alkatra; /* تحديد نوع الخط */
+        font-size: 25px; /* تحديد حجم الخط */
+    }
+
+    .p2 {
+        /* تحديد العناصر بواسطة الخاصية position */
+        position: absolute;
+        /* تحديد المسافة بين العنصر واليسار */
+        margin-left: 32%;
+        /* تحديد المسافة بين العنصر والأعلى */
+        margin-top: 30%;
+        /* تحديد نوع الخط */
+        font-family: Alkatra;
+        /* تحديد حجم الخط */
+        font-size: 30px;
+    }
+
+
+    /* تعريف خصائص عنصر h6 */
+    h6 {
+        position: absolute; /* تحديد العنصر بوضعية مطلقة */
+        left: 37%; /* تحديد المسافة بين العنصر والحافة اليسرى للصفحة */
+        text-align: center; /* تحديد محاذاة نص العنصر للوسط */
+        top: 50%; /* تحديد المسافة بين العنصر والحافة العلوية للصفحة */
+        font-family: Alkatra; /* تحديد نوع الخط */
+        font-size: 24px; /* تحديد حجم الخط */
+    }
+
+    #logo {
+        /* تحديد موقع العنصر بالنسبة للصفحة */
+        position: absolute;
+        left: 41.7%;
+        top: 2%;
+    }
+
+        #logo:hover {
+            font-size: 20px; /* زيادة حجم النص عند المرور بالفأرة */
+            transition: all 0.3s ease; /* تغيير سريع وسلس للتأثيرات عند المرور بالفأرة */
+            opacity: 0.5; /* تغيير درجة الشفافية للعنصر عند المرور بالفأرة */
+        }
+
+    #bottom {
+        /* تعيين خلفية الزر */
+        background-color: #D8A533;
+        /* تحويل المؤشر إلى يد عند تحريك الماوس فوق الزر */
+        cursor: pointer;
+        /* إزالة حدود الزر */
+        border: none;
+        /* تدوير حواف الزر */
+        border-radius: 20px;
+        /* تحديد سمك النص */
+        font-weight: 700;
+        /* تحديد عرض الزر */
+        width: 180px;
+        /* تحديد ارتفاع الزر */
+        height: 45px;
+        /* تحديد لون النص */
+        color: white;
+        /* تحديد موقع الزر بالنسبة للصفحة */
+        position: absolute;
+        left: 30%;
+        top: 67%;
+        /* إضافة ظل للزر */
+        box-shadow: 5px 5px 5px 5px #C7C5C5;
+    }
+
+        #bottom:hover {
+            font-size: 20px; /* تغيير حجم الخط عند تحويم الماوس */
+            transition: all 0.3s ease; /* تفعيل التحويل بشكل سلس على المؤثر */
+            opacity: 0.5; /* تغيير شفافية العنصر عند تحويم الماوس */
+        }
+
+</style>
+<a asp-action="page1" asp-controller="homepage"><img src="/img/logo.png" id="logo" class="rotate-image" />
+</a>
+<div class="h1">your REST</div>
+<div class="p">Tasty Special Menu</div>
+<div class="p2">
+    Welcome to you, now you can see all<br>
+    the meals and choose your favorite.
+    <div style="margin-top:80px;">
+        <form action="/Homepage/page2" method="post">
+            <input type="submit" id="bottom" value="NEXT" />
+        </form>
+    </div>
+
+</div>

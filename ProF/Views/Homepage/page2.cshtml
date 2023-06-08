@@ -1,0 +1,168 @@
+﻿<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+@{
+    Layout = "";
+
+}
+<title>@ViewData["Title"] - Your_REST</title>
+<style>
+    /** {
+                margin: 0;
+                padding: 0;
+                margin-top: -1%;
+            }*/
+
+    body {
+        /* تحديد صورة الخلفية */
+        background-image: url('/img/i2.png');
+        /* تحديد حجم الصورة المستخدمة كخلفية */
+        background-size: cover;
+        /* تحديد عرض العنصر بنسبة مئوية */
+        width: 80%;
+        /* تحديد ارتفاع العنصر بنسبة مئوية */
+        height: 50%;
+    }
+
+
+    /* تحديد أن جميع عناوين الرئيسية في الصفحة ستتبع هذه الخصائص */
+    .h1 {
+        margin-left: 15%; /* تحديد هامش اليسار بنسبة 15% من عرض الصفحة */
+        margin-top: 4%; /* تحديد هامش الأعلى بنسبة 4% من ارتفاع الصفحة */
+        font-family: Lobster; /* تحديد نوع الخط ليكون Lobster */
+        font-size: 90px; /* تحديد حجم الخط بـ 90 بكسل */
+    }
+
+    #men {
+        /* تعيين العنصر بمكان محدد بشكل مطلق */
+        position: absolute;
+        /* تحديد موضع العنصر على اليسار من المكان المحدد */
+        left: 22%;
+        /* تحديد موضع العنصر على الأعلى من المكان المحدد */
+        top: 30%;
+        /* إضافة ظل للعنصر */
+        box-shadow: 5px #C7C5C5;
+    }
+
+        #men:hover {
+            font-size: 20px; /* تغيير حجم النص عند اما  الماوس تقف عليه */
+            transition: all 0.3s ease; /* تحويل التغيير بأناقة خلال 0.3 ثانية */
+            opacity: 0.5; /* تقليل شفافية العنصر عند اما  الماوس تقف عليه */
+        }
+
+    #bottom {
+        /* تعيين لون خلفية الزر */
+        background-color: #D8A533;
+        /* تعيين المؤشر ليظهر كـ pointer */
+        cursor: pointer;
+        /* إزالة حدود الزر */
+        border: none;
+        /* تعيين شكل الحواف */
+        border-radius: 5px;
+        /* تعيين سمك الخط ونوع الخط */
+        font-weight: 700;
+        font-family: Space Grotesk;
+        /* تعيين عرض وارتفاع الزر */
+        width: 270px;
+        height: 70px;
+        /* تعيين لون النص داخل الزر */
+        color: white;
+        /* تعيين حجم الخط */
+        font-size: 30px;
+        /* تعيين موقع الزر بالنسبة للعنصر الذي يحتوي عليه */
+        position: absolute;
+        left: 15%;
+        top: 53%;
+        /* إضافة ظل للزر */
+        box-shadow: 5px 5px 5px 5px #C7C5C5;
+    }
+
+
+        #bottom:hover {
+            color: #D8A533; /* لون النص عند اما  الماوس تقف عليه */
+            background-color: #000000; /* لون خلفية الزر عند اما  الماوس تقف عليه */
+        }
+
+    #input1:hover {
+        color: #D8A533; /* لون النص عند تحويم الماوس على حقل الإدخال */
+        background-color: #000000; /* لون خلفية حقل الإدخال عند اما  الماوس تقف عليه */
+    }
+
+
+    /* تغيير لون النص ولون الخلفية عندما يتم المرور بالماوس فوق العنصر */
+    #input2:hover {
+        color: #D8A533; /* لون النص عند المرور بالماوس */
+        background-color: #000000; /* لون الخلفية عند المرور بالماوس */
+    }
+
+
+    #input1 {
+        background-color: #D8A533; /* لون الخلفية */
+        cursor: pointer; /* التأشيرة عند تحريك الماوس */
+        border: none; /* عدم وجود حدود */
+        align-content: center; /* محاذاة النص في الوسط */
+        border-radius: 5px; /* انحناء الحواف */
+        font-weight: 700; /* سمك الخط */
+        width: 270px; /* العرض */
+        height: 70px; /* الارتفاع */
+        color: white; /* لون النص */
+        font-family: Space Grotesk; /* الخط */
+        font-size: 30px; /* حجم الخط */
+        position: absolute; /* التحكم في الموضع */
+        left: 15%; /* الموضع الأفقي */
+        top: 60%; /* الموضع العمودي */
+        box-shadow: 5px 5px 5px 5px #C7C5C5; /* ظل للزر */
+        margin-top: 2.5%;
+    }
+
+    #input2 {
+        /* لون خلفية عنصر الإدخال */
+        background-color: #D8A533;
+        /* شكل المؤشر عند التحريك فوق عنصر الإدخال */
+        cursor: pointer;
+        /* إزالة الحدود الخارجية لعنصر الإدخال */
+        border: none;
+        /* تحديد موضع المحتوى داخل عنصر الإدخال */
+        align-content: center;
+        /* تقويس حواف عنصر الإدخال */
+        border-radius: 5px;
+        /* سماكة الخط وزن الخط في عنصر الإدخال */
+        font-weight: 700;
+        /* عرض عنصر الإدخال */
+        width: 270px;
+        /* ارتفاع عنصر الإدخال */
+        height: 70px;
+        /* لون نص عنصر الإدخال */
+        color: white;
+        /* نوع الخط لنص عنصر الإدخال */
+        font-family: Space Grotesk;
+        /* حجم الخط لنص عنصر الإدخال */
+        font-size: 30px;
+        /* تحديد موقع عنصر الإدخال بالنسبة للواجهة */
+        position: absolute;
+        /* المسافة بين الحافة اليسرى للنافذة والحافة اليسرى لعنصر الإدخال */
+        left: 15%;
+        /* المسافة بين الحافة العلوية للنافذة والحافة العلوية لعنصر الإدخال */
+        top: 72%;
+        /* إضافة ظل لعنصر الإدخال */
+        box-shadow: 5px 5px 5px 5px #C7C5C5;
+        margin-top: 0%;
+    }
+
+</style>
+<div class="h1">
+    Registration
+
+</div>
+<div><a asp-action="page1" asp-controller="homepage"><img src="/img/men.png" id="men" width="100" height="100" /></a></div>
+<div>
+    <form asp-action="register" asp-controller="Register_User" method="get">
+        <input type="submit" value="Users" id="bottom" />
+    </form>
+</div>
+<div>
+</div>
+<div>
+    <form action="/Admin/login_admin">
+        <input type="submit" value="Admin" id="input2" />
+    </form>
+</div>

@@ -1,0 +1,218 @@
+﻿<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="divm">
+    <button class="back-button" onclick="window.location.href='https://localhost:7166/Register_User/wellcome'">
+        <span class="fa">&#xf053;</span>
+    </button>
+</div>
+<form mathod="get" asp-action="Search" asp-controller="search">
+    <input type="search" name="searching" placeholder="Search..." class="btn">
+
+</form>
+
+
+<div style="margin-right: 20%; ">
+    @foreach (var item in Model)
+    {
+        <a href="https://localhost:7166/search/Item_Details?id=@item.item_id" style="text-decoration: none;">
+            <div style="display: inline-block; padding: 2%; width: 200px;">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="~/img1/@item.item_image" alt="dept_img_error" style="width: 200px; height: 200px;" align="bottom" /><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="display: inline; width: 100%; color: black;">@item.item_Name</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </a>
+    }
+</div>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/Homepage/Logout";
+        }, 100000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+
+<style>
+    /* تحديد أبعاد الصور داخل خلايا الجدول */
+    table td img {
+        width: 170px;
+        height: 150px;
+    }
+
+    .search-container {
+        position: relative; /**/
+    }
+
+
+    td {
+        text-align: center; /* يُحدد موقع النص داخل الخلية في الوسط أفقيًا */
+        vertical-align: middle; /* يُحدد موقع النص داخل الخلية في الوسط رأسيًا */
+        min-width: 50px; /* يُحدد الحد الأدنى لعرض الخلية */
+        padding: 0%; /* يُحدد هامش الخلية الداخلي */
+    }
+
+
+    body {
+        background-image: url('/img/A.2.png'); /* تعيين الصورة كخلفية للصفحة */
+        background-size: cover; /* تعيين حجم الصورة بحيث يكون شاشة كاملة */
+        background-repeat: no-repeat; /*دى على شان الصفحة متتكررش او ما يتعملها مينيميز*/
+        margin-top: 0; /*ودى على شان نلغى اى مسافات جانبية*/
+        overflow-x: hidden; /*هنا بنلغى الاسكرول الافقى*/
+        font-size: 20px; /* حجم الخط يا سادة */
+        /*        overflow-y: hidden; /*هنا بنلغى الاسكرول الراسي*/
+        */ background-repeat: no-repeat;
+        /*        background-position: -80px; /* دى على شان نحرك الصورة ناحية الشمال شوية  */
+        margin-left: 10%;
+    }
+
+    .back-button {
+        border: none; /*هنا بنشيل البوردر من الزرار*/
+        background-color: #ffffff; /*هنا لون خلفية الزرار*/
+        height: 48px; /*يحدد ارتفاع الزر بـ 48 بيكسل */
+        width: 50px; /*يحدد عرض الزر بـ 50 بيكسل*/
+        border-radius: 50%; /*يجعل حواف الزر دائرية بنسبة 50% من ارتفاع الزر*/
+        transition: all 0.3s ease; /*يعمل على إضافة تأثير تدريجي على الخصائص المحددة عند حدوث تغييرات عليها.*/
+    }
+
+    .arrow {
+        font-size: 30px; /*ده حجم الخط*/
+        color: #000; /*وده لونه*/
+        margin-right: 99%;
+    }
+
+    .back-button:hover {
+        transform: scale(.9); /*ده بيحدد الحجم بعد التغير*/
+    }
+
+    #search {
+        /* تغيير لون النص إلى الرمادي */
+        color: rgba(0, 0, 0, 0.4699999988079071);
+        /* محاذاة النص إلى اليسار */
+        text-align: left;
+        /* محاذاة النص عموديًا إلى الأعلى */
+        vertical-align: text-top;
+        /* تحديد حجم الخط */
+        font-size: 24px;
+        /* تحديد نوع الخط */
+        font-family: Noto Sans Tai Tham;
+        /* تحديد ارتفاع السطر */
+        line-height: 0;
+        /* إخفاء الحدود */
+        border-style: hidden;
+        /* إزالة التأشيرات */
+        outline: none;
+        /* تحديد عرض عنصر البحث */
+        width: 76px;
+    }
+
+    input[type="search"] {
+        /* تعيين صورة الخلفية للحقل */
+        background-image: url('/img/vector.png');
+        /* تعيين ارتفاع وعرض الحقل */
+        height: 40px;
+        width: 320px;
+        /* تعيين خاصية الحدود والزوايا الدائرية للحقل */
+        border: 1px solid #888888;
+        border-radius: 50px;
+        /* تعيين التباعد الداخلي للحقل */
+        padding: 10px;
+        /* تعيين حجم الخط */
+        font-size: 16px;
+        /* تعيين لون خلفية الحقل */
+        background-color: transparent;
+        /* تعطيل الإطار الخارجي للحقل */
+        outline: none;
+        /* إضافة ظل للحقل */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        /* تحديد المسافة بين الصورة والنص */
+        /* padding-right:150px; */
+    }
+
+
+    .btn {
+        /* وضع صورة خلفية وتحديد أبعادها */
+        background-image: url('img/vector.png');
+        background-size: 20px;
+        background-repeat: no-repeat;
+        /* تحديد موقع الصورة داخل الزر */
+        background-position: left 15px center;
+        /* تحديد هوامش الزر */
+        margin-left: 20px;
+        margin-bottom: 10px;
+        outline: none;
+    }
+
+    /* يتم تطبيق الهامش العلوي للعنصر بمقدار 30 بكسل /
+            / يتم تطبيق الهامش الأيسر للعنصر بنسبة 10% من عرض الصفحة */
+    .divm {
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    select {
+        height: 40px; /* ارتفاع عنصر الاختيار */
+        width: 160px; /* عرض عنصر الاختيار */
+        border: 1px solid #888888; /* حدود عنصر الاختيار */
+        border-radius: 50px; /* إضافة زاوية مستديرة لعنصر الاختيار */
+        padding: 10px; /* تباعد النص داخل عنصر الاختيار */
+        font-size: 16px; /* حجم الخط داخل عنصر الاختيار */
+        background-color: transparent; /* تحديد لون خلفية عنصر الاختيار */
+        outline: none; /* إخفاء التأثير المحيط بالعنصر عند التركيز عليه */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* تحديد تأثير الظل على عنصر الاختيار */
+        margin-left: 70px; /* تحديد هامش من اليسار لعنصر الاختيار */
+    }
+
+
+    .h1 {
+        font-family: 'Alkatra'; /* ودى على شان شكل الخط*/
+        color: #808080; /* ده لو عايزن نعين اللون الأساسي للنص في الموقع */
+        padding: 0;
+        width: 13%;
+        font-size: 23px;
+    }
+
+
+    #a1 {
+        font-family: 'Alkatra'; /* ودى على شان شكل الخط*/
+        color: #f9bd38;
+        font-size: 30px;
+    }
+
+    #a2 {
+        font-family: 'Pacifico', cursive; /* ودى على شان شكل الخط*/
+        color: green;
+        font-size: 30px;
+    }
+
+    .tablemov {
+        margin-top: 5px;
+        margin-left: 15%
+    }
+</style>

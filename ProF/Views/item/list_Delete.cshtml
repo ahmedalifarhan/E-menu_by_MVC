@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model IEnumerable<item>
+
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>item_id</th>
+            <th>item_Name</th>
+            <th>item_Description/th>
+            <th>item_Cost</th>
+            <th>menu_id</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.item_id</td>
+                <td>@item.item_Name</td>
+                <td>@item.item_Description</td>
+                <td>@item.item_Cost</td>
+               
+                <td>
+                    <a href="/item/Delete/@item.item_id">Delete </a>
+                   
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/admin/login_admin";
+        }, 300000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+

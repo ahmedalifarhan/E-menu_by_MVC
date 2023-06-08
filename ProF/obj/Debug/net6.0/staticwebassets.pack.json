@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProF.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProF.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images\\41.png",
+      "PackagePath": "staticwebassets\\images\\41.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images\\Group 107.png",
+      "PackagePath": "staticwebassets\\images\\Group 107.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images\\Opps!.png",
+      "PackagePath": "staticwebassets\\images\\Opps!.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images\\Vector.png",
+      "PackagePath": "staticwebassets\\images\\Vector.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images\\aps.png",
+      "PackagePath": "staticwebassets\\images\\aps.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Emoji (1).png",
+      "PackagePath": "staticwebassets\\images_2\\Emoji (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Emoji.png",
+      "PackagePath": "staticwebassets\\images_2\\Emoji.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Group 110.png",
+      "PackagePath": "staticwebassets\\images_2\\Group 110.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Group 73.png",
+      "PackagePath": "staticwebassets\\images_2\\Group 73.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Group 8 (1).png",
+      "PackagePath": "staticwebassets\\images_2\\Group 8 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Group 8 (2).png",
+      "PackagePath": "staticwebassets\\images_2\\Group 8 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Group 8 (3).png",
+      "PackagePath": "staticwebassets\\images_2\\Group 8 (3).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Polygon 16.png",
+      "PackagePath": "staticwebassets\\images_2\\Polygon 16.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Polygon 17.png",
+      "PackagePath": "staticwebassets\\images_2\\Polygon 17.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Rectangle 71 (1).png",
+      "PackagePath": "staticwebassets\\images_2\\Rectangle 71 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Rectangle 71.png",
+      "PackagePath": "staticwebassets\\images_2\\Rectangle 71.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Rectangle 72 (1).png",
+      "PackagePath": "staticwebassets\\images_2\\Rectangle 72 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Rectangle 72.png",
+      "PackagePath": "staticwebassets\\images_2\\Rectangle 72.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Rectangle 73 (1).png",
+      "PackagePath": "staticwebassets\\images_2\\Rectangle 73 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Rectangle 73.png",
+      "PackagePath": "staticwebassets\\images_2\\Rectangle 73.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Union.png",
+      "PackagePath": "staticwebassets\\images_2\\Union.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Vector (1).png",
+      "PackagePath": "staticwebassets\\images_2\\Vector (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Vector (2).png",
+      "PackagePath": "staticwebassets\\images_2\\Vector (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\Vector.png",
+      "PackagePath": "staticwebassets\\images_2\\Vector.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\bacg.png",
+      "PackagePath": "staticwebassets\\images_2\\bacg.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\p11c.png",
+      "PackagePath": "staticwebassets\\images_2\\p11c.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\images_2\\p11c2.png",
+      "PackagePath": "staticwebassets\\images_2\\p11c2.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\143_.png.jpg",
+      "PackagePath": "staticwebassets\\img1\\143_.png.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\21.png",
+      "PackagePath": "staticwebassets\\img1\\21.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\221.png",
+      "PackagePath": "staticwebassets\\img1\\221.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\4676-6.jpg",
+      "PackagePath": "staticwebassets\\img1\\4676-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\Rectangle 102.png",
+      "PackagePath": "staticwebassets\\img1\\Rectangle 102.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\Rectangle 104.png",
+      "PackagePath": "staticwebassets\\img1\\Rectangle 104.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\Rectangle 108.png",
+      "PackagePath": "staticwebassets\\img1\\Rectangle 108.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\Rectangle 83.png",
+      "PackagePath": "staticwebassets\\img1\\Rectangle 83.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\Rectangle 84.png",
+      "PackagePath": "staticwebassets\\img1\\Rectangle 84.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\Screenshot 2023-03-28 220559.png",
+      "PackagePath": "staticwebassets\\img1\\Screenshot 2023-03-28 220559.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\_12.png",
+      "PackagePath": "staticwebassets\\img1\\_12.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\bookmark.jpg",
+      "PackagePath": "staticwebassets\\img1\\bookmark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\default.png",
+      "PackagePath": "staticwebassets\\img1\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\download.png",
+      "PackagePath": "staticwebassets\\img1\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\image1.jpg",
+      "PackagePath": "staticwebassets\\img1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\images.jpg",
+      "PackagePath": "staticwebassets\\img1\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img1\\tt.png",
+      "PackagePath": "staticwebassets\\img1\\tt.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\1.A.png",
+      "PackagePath": "staticwebassets\\img\\1.A.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\21.png",
+      "PackagePath": "staticwebassets\\img\\21.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\A.2.png",
+      "PackagePath": "staticwebassets\\img\\A.2.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Admin.png",
+      "PackagePath": "staticwebassets\\img\\Admin.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 102.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 102.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 103.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 103.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 104.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 104.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 105.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 105.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 106.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 106.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 108.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 108.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 83.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 83.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Rectangle 84.png",
+      "PackagePath": "staticwebassets\\img\\Rectangle 84.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Vect.png",
+      "PackagePath": "staticwebassets\\img\\Vect.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Vector (1).png",
+      "PackagePath": "staticwebassets\\img\\Vector (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Vector.png",
+      "PackagePath": "staticwebassets\\img\\Vector.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\Vector3.png",
+      "PackagePath": "staticwebassets\\img\\Vector3.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\VectorRad.png",
+      "PackagePath": "staticwebassets\\img\\VectorRad.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\VectorRight.png",
+      "PackagePath": "staticwebassets\\img\\VectorRight.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\VectorVisa.png",
+      "PackagePath": "staticwebassets\\img\\VectorVisa.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\_12.png",
+      "PackagePath": "staticwebassets\\img\\_12.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\_143.jpg",
+      "PackagePath": "staticwebassets\\img\\_143.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\background.png",
+      "PackagePath": "staticwebassets\\img\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\box.png",
+      "PackagePath": "staticwebassets\\img\\box.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\i1.png",
+      "PackagePath": "staticwebassets\\img\\i1.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\i2.png",
+      "PackagePath": "staticwebassets\\img\\i2.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\men.png",
+      "PackagePath": "staticwebassets\\img\\men.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\p11c.png",
+      "PackagePath": "staticwebassets\\img\\p11c.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\img\\thank.png",
+      "PackagePath": "staticwebassets\\img\\thank.png"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed Ali\\Downloads\\New folder (4)\\ProF (1) (1)\\ProF (1)\\ProF\\ProF\\ProF\\ProF\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProF.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProF.props",
+      "PackagePath": "build\\ProF.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProF.props",
+      "PackagePath": "buildMultiTargeting\\ProF.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProF.props",
+      "PackagePath": "buildTransitive\\ProF.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

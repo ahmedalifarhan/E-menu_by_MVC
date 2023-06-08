@@ -1,0 +1,168 @@
+﻿@model ProF.Models.Payment
+
+
+
+
+@{
+    Layout = null;
+}
+
+
+<div>
+</div>
+<style>
+    .ahmed {
+        width: 13px;
+        height: 25px;
+    }
+
+</style>
+@if (ViewBag.Message != null)
+{
+    <span style="color:orangered">@Html.Raw(ViewBag.Message)</span>
+}
+
+
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        @*<form asp-action="payment" enctype="multipart/form-data">*@
+            <button style="background-color:white" class="Vector3">
+                <a asp-controller="item" asp-action="cart"><img src="/img/Vector3.png" class="ahmed"></a>
+            </button>
+            <h1 class="summary">Payment Summary</h1>
+            <br><br>
+
+            <div class="form-group">
+
+                <button style="background-color:white" class="check">
+                    @Html.RadioButtonFor(payment => payment.t_p,"cash")
+                    <img src="/img/VectorRad.png" width=20px height=25px>
+                    <span class="rad">Cash</span>
+                </button>
+                <br><br>
+
+                <button style="background-color:white" class="check">
+                    @Html.RadioButtonFor(payment => payment.t_p,"visa")
+                    <img src="/img/VectorVisa.png" width=20px height=20px>
+                    <span class="rad">Different Credit Card</span>
+                </button>
+                <br>
+                <br>
+                <span asp-validation-for="t_p" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+            <a asp-action="comment_2" asp-controller="comment"><input type="submit" class="submit2" value="Execution of the request" /></a>
+            </div>
+
+            <br>
+            <br>
+
+            <img src="/img/VectorRight.png" class="right" width=50px height=50px>
+       @* </form>*@
+    </div>
+</div>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/Homepage/Logout";
+        }, 100000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+
+<style>
+
+    body {
+        background-image: url('/img/background.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Vector3 {
+        width: 25px;
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        border: 2px solid white;
+    }
+
+    .Vector1 {
+        width: 25px;
+        position: absolute;
+        top: 10%;
+        left: 55%;
+        border: 2px solid white;
+    }
+
+    .summary {
+        font-size: xx-large;
+        text-align: left;
+        margin-left: 25%;
+        margin-top: 5%;
+        color: black;
+    }
+
+    .rad {
+        font-size: x-large;
+        margin-top: 5%;
+        margin-left: 10px;
+        padding: 5px;
+        text-align: right;
+    }
+
+    .submit2 {
+        background-color: #F6B930;
+        -webkit-text-fill-color: white;
+        margin-left: 35%;
+        margin-top: 8%;
+        padding: 8px;
+        font-size: x-large;
+        border-color: #F6B930;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+        .submit2:hover {
+            background-color: #000;
+            -webkit-text-fill-color: white;
+            margin-left: 35%;
+            margin-top: 9%;
+            padding: 8px;
+            font-size: x-large;
+            border-color: #fff;
+            border-radius: 10px;
+        }
+
+    .check {
+        text-align: left;
+        width: 350px;
+        height: 50px;
+        margin-left: 150px;
+        margin-top: 5px;
+    }
+
+    .right {
+        margin-left: 45%;
+        margin-top: 0%;
+    }
+</style>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,0 +1,102 @@
+﻿<title>@ViewData["Title"] - Your_REST</title>
+@{
+    Layout = "";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1234567890abcdefghijklmnopqrstuvwxy" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="h3" hidden>
+    <a href="https://localhost:7166/comment/comment_2">	<i class="fa">&#xf053;</i> </a>
+</div>
+
+
+
+<div class="h1">
+
+    <p>  <em>thank you </em></p>
+
+</div>
+<form asp-action="page1" asp-controller="Homepage">
+    <input type="submit" class="homepage" value="Go to home page" />
+</form>
+
+<style>
+
+    body {
+        background-image: url('/img/thank.png');
+        background-size: 95% 85%;
+        background-attachment: fixed;
+        margin-top: -4%;
+        margin-left: 7%;
+        overflow-y: hidden;
+        position: absolute;
+    }
+
+    .h1 {
+        margin-top: 50%;
+        margin-left: 63%;
+        font-size: 120px;
+        color: #000000;
+        white-space: nowrap;
+    }
+
+
+    .homepage {
+        background-color: #000;
+        -webkit-text-fill-color: white;
+        margin-left: 65%;
+        margin-top: 1%;
+        padding: 1%;
+        font-size: xx-large;
+        border-radius: 20px;
+        transition: all 0.3s;
+        width: 400px;
+    }
+
+        .homepage:hover {
+            background-color: black;
+            -webkit-text-fill-color: white;
+            margin-left: 65%;
+            margin-top: 2%;
+            padding: 1%;
+            font-size: xx-large;
+            font-weight: 100;
+            border-color: #000;
+            border-radius: 30px;
+            transition: all 0.3s;
+            width: 400px;
+        }
+
+    .h3 {
+        margin-left: 5%;
+        margin-top: 17%;
+        font-size: 20px;
+        position: relative;
+        color: #000;
+    }
+
+    .fa {
+        color: #000;
+    }
+</style>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/Homepage/Logout";
+        }, 100000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+

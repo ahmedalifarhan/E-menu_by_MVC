@@ -1,0 +1,107 @@
+﻿@{
+    Layout = "";
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"><title>@ViewData["Title"] - Your_REST</title>
+
+<div style="margin-left:190%;margin-top:5%;font-size:30px;">
+    <a asp-action="logout" asp-controller="homepage" title="Logout" style="background: none; border: none;">
+        <i class="fa-solid fa-arrow-right-from-bracket " style="color:#304850"></i>
+    </a>
+</div>
+<script src="https://kit.fontawesome.com/260c226195.js" crossorigin="anonymous"></script>
+<style>
+    body {
+        background-image: url(/img/Admin.png); /* تعيين صورة الخلفية */
+        background-size: cover; /* تغطية الشاشة بالصورة */
+        width: 50%; /* تحديد عرض الجسم */
+        height: 20%; /* تحديد ارتفاع الجسم */
+    }
+
+    img {
+        position: absolute;
+        top: 20%
+    }
+
+    #b1 {
+        position: absolute;
+        top: 32%;
+        left: 26.5%;
+    }
+
+    #b2 {
+        position: absolute;
+        top: 32%;
+        left: 60%;
+    }
+
+    #b3 {
+        position: absolute;
+        top: 71%;
+        left: 44%;
+    }
+
+
+
+
+    span:hover {
+        background-color: #D8A533; /* لون خلفية الزر عند اما  الماوس تقف عليه */
+        /* تعيين المؤشر ليظهر كـ pointer */
+        cursor: pointer;
+        /* تعيين شكل الحواف */
+        border-radius: 5px;
+        /* تعيين سمك الخط ونوع الخط */
+        font-weight: 320;
+        font-family: Space Grotesk;
+        font-size: 30px;
+        /* إضافة ظل للزر */
+        box-shadow: 5px 5px 5px 5px #C7C5C5;
+    }
+</style>
+
+<div align="center">
+    <img src="~/img/box.png" width="50%" />
+</div>
+<form asp-action="ADD" method="post" asp-controller="item">
+
+    <button id="b1" type="submit" value="" style="border:none;background-color:#ffffff;">
+        <span style="font-family: 'Noto Sans Gujarati UI';font-style: normal;font-weight:300;color: #000000;font-size: 32px;line-height: 25px;">Add_A_Item</span>
+    </button>
+</form>
+
+<form asp-action="ADD" method="post" asp-controller="item">
+
+    <button id="b2" type="submit" value="" style="border:none;background-color:#ffffff;">
+        <span style="font-family: 'Noto Sans Gujarati UI';font-style: normal;font-weight:150;color: #000000;font-size: 27px;line-height: 25px;">Delete_A_Item</span>
+    </button>
+</form>
+
+<form asp-action="ADD" method="post" asp-controller="item">
+
+    <button id="b3" type="submit" value="" style="border:none;background-color:#ffffff;">
+        <span style="font-family: 'Noto Sans Gujarati UI';font-style: normal;font-weight:159;color: #000000;font-size: 27px;line-height: 25px;">Updata_A_Item</span>
+    </button>
+</form>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/admin/login_admin";
+        }, 300000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>

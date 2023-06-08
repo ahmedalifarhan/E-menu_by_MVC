@@ -1,0 +1,252 @@
+﻿@model ProF.Models.comment
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1234567890abcdefghijklmnopqrstuvwxy" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>@ViewData["Title"] - Your_REST</title>
+
+@{
+    Layout = "";
+}
+<div class="h3">
+    <a asp-action="payment" asp-controller="payment">	<i style="color:#000;" class="fa">&#xf053;</i> </a>
+</div>
+
+<div>
+    <h1>
+        How easy and successful the site is
+    </h1>
+</div>
+
+<div class="comments">
+    <div class="rating">
+        <span class="fa fa-star" data-rating="1"></span>
+        <span class="fa fa-star" data-rating="2"></span>
+        <span class="fa fa-star" data-rating="3"></span>
+        <span class="fa fa-star" data-rating="4"></span>
+        <span class="fa fa-star" data-rating="5"></span>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="comment_2" asp-controller="comment">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="coment_name" type="text" class="text" placeholder="Write down your notes" size="100" />
+                <br /> <br />
+                <span asp-validation-for="coment_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="submit" value="Share" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<style>
+
+    body {
+        background-image: url('/img/21.png');
+        background-size: 100% 110%;
+        margin-left: -5%;
+        background-attachment: fixed;
+        overflow-y: hidden;
+    }
+
+    .comments {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-left: 10%;
+        border: none;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 31%;
+    }
+
+    .rating {
+        display: inline-block;
+        font-size: 0;
+    }
+
+        .rating .fa {
+            font-size: 40px;
+            cursor: pointer;
+            transition: color 0.25s ease;
+        }
+
+            .rating .fa:hover {
+                color: #F9BD38;
+            }
+
+            .rating .fa.active,
+            .rating .fa.selected {
+                color: #F9BD38;
+            }
+
+            .rating .fa.hover {
+                color: #F9BD38;
+            }
+
+    .fa {
+        color: wheat;
+    }
+
+    .submit {
+        background-color: #F6B930;
+        -webkit-text-fill-color: white;
+        margin-left: 10%;
+        margin-top: 3%;
+        padding: 2.5%;
+        /* padding: 0.2%;*/
+        font-size: xx-large;
+        font-weight: 100;
+        border-color: #F6B930;
+        border-radius: 10px;
+        transition: all 0.5s;
+        width: 800px;
+    }
+
+
+
+        .submit:hover {
+            background-color: black;
+            -webkit-text-fill-color: white;
+            margin-left: 10%;
+            margin-top: 2%;
+            padding: 0.2%;
+            font-size: xx-large;
+            font-weight: 100;
+            border-color: dimgray;
+            border-radius: 5px;
+            transition: all 0.5s;
+            width: 800px;
+        }
+
+    .text {
+        background-color: white;
+        -webkit-text-fill-color: darkgrey;
+        margin-top: 3%;
+        margin-left: 10%;
+        padding: 2.5%;
+        font-size: x-large;
+        font-weight: 100;
+        border-color: #000;
+        border-radius: 5px;
+        width: 800px;
+        height: 25%;
+    }
+
+    h1 {
+        margin-top: 1%;
+        margin-left: 18%;
+        Font-style: italic;
+        font-size: 280%;
+        color: #000000;
+    }
+
+    h2 {
+        margin-top: 1%;
+        margin-left: 10%;
+        font-size: xx-large;
+        font-weight: 100;
+        color: #000000;
+    }
+
+    .h3 {
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 20px;
+        position: relative;
+        color: #000;
+    }
+
+    h4 {
+        margin-top: 80%;
+        margin-left: 3500%;
+    }
+
+    h5 {
+        margin-left: 20%;
+    }
+
+    h6 {
+        margin-top: 1%;
+        margin-left: 34%;
+    }
+
+    h7 {
+        margin-top: 1%;
+        margin-left: 31%;
+    }
+
+</style>
+<script>
+    var stars = document.querySelectorAll(".rating .fa");
+
+    stars.forEach(function (star, index) {
+        star.addEventListener("click", function () {
+            var rating = index + 1;
+            for (var i = 0; i < stars.length; i++) {
+                if (i < rating) {
+                    stars[i].classList.add("active");
+                } else {
+                    stars[i].classList.remove("active");
+                }
+            }
+        });
+
+        star.addEventListener("mouseover", function () {
+            var rating = index + 1;
+            for (var i = 0; i < rating; i++) {
+                stars[i].classList.add("hover");
+            }
+        });
+
+        star.addEventListener("mouseout", function () {
+            var rating = index + 1;
+            for (var i = 0; i < stars.length; i++) {
+                stars[i].classList.remove("hover");
+            }
+        });
+    });
+    let counter = 0;
+    const counterElement = document.querySelector('.counter');
+    const cartCounterElement = document.querySelector('.cart-icon .counter');
+
+    function increment() {
+        counter++;
+        counterElement.innerText = counter;
+        cartCounterElement.innerText = counter;
+    }
+
+    function decrement() {
+        if (counter > 0) {
+            counter--;
+            counterElement.innerText = counter;
+            cartCounterElement.innerText = counter;
+        }
+    }
+</script>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/Homepage/Logout";
+        }, 100000); // 10 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+
+
+

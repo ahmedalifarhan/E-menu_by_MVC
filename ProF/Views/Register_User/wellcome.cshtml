@@ -1,0 +1,215 @@
+﻿<title>@ViewData["Title"] - Your_REST</title>
+
+@{
+    Layout = "";
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<div style="margin-top:1%;">
+    <div class="mov">
+        <h1 class="h1"><a asp-action="page1" asp-controller="homepage" id="a1">Restorant </a> & <a asp-action="page1" asp-controller="homepage" id="a2">Cafe</a></h1>
+
+        <div class="divr">
+            <span><a asp-action="showform_menu" asp-controller="item" id="a3a">Menu</a></span>
+        </div>
+        <div class="divr">
+            <span><a asp-action="special_food" asp-controller="item" id="a3a">Special_food</a></span>
+        </div>
+        <div class="divr">
+            <span><a asp-action="pageoffers" asp-controller="offers" id="a3a">Special_offers</a></span>
+        </div>
+        <div class="divr">
+            <span><a asp-action="fast_food" asp-controller="item" id="a3a">Fast_food</a></span>
+        </div>
+    </div>
+    <div style="margin-left:16%">
+        <form action="/Register_User/register">
+            <button class="back-button" onclick="window.location.href='https://localhost:7166/Register_User/register'">
+                <span class="arrow">&#8249;</span>
+            </button><span class="text">back</span>
+        </form>
+    </div>
+    <div class="wellcomename">Hello: @ViewBag.fname @ViewBag.lname</div>
+    <div class="textwellcome">
+
+        <p>
+            welcome to our restaurant! We are thrilled to
+            have you here and we hope you enjoy your dining experience with us.
+            Our menu features a variety of delicious dishes made with fresh and locally
+            sourced ingredients, prepared by our talented chefs.
+        </p>
+    </div>
+    <div>
+        @*<form asp-action="page1">*@
+        <a asp-action="Index_Search" asp-controller="search">
+            <input type="submit" id="bottom" value="Try it out">
+        </a>
+        @*</form>*@
+    </div>
+    <div style="margin-left:95%;margin-top:-35%;font-size:30px;">
+        <a asp-action="logout" asp-controller="homepage" title="Logout" style="background: none; border: none;">
+            <i class="fa-solid fa-arrow-right-from-bracket " style="color:#304850"></i>
+        </a>
+    </div>
+</div>
+<style>
+    body {
+        background-image: url(/img/1.A.png); /* تعيين الصورة كخلفية للصفحة */
+        background-size: cover; /* تعيين حجم الصورة بحيث يكون شاشة كاملة */
+        background-repeat: no-repeat; /*دى على شان الصفحة متتكررش او ما يتعملها مينيميز*/
+        margin-top: 0; /*ودى على شان نلغى اى مسافات جانبية*/
+        overflow-x: hidden; /*هنا بنلغى الاسكرول الافقى*/
+        overflow-y: hidden; /*هنا بنلغى الاسكرول الراسي*/
+    }
+
+    .h1 {
+        font-family: 'Pacifico', cursive; /* ودى على شان شكل الخط*/
+        color: black; /* ده لو عايزن نعين اللون الأساسي للنص في الموقع */
+        margin-top: 7px;
+        margin-left: -15px;
+    }
+
+    #a1 {
+        color: #f9bd38; /* وهنا لو هنعمل تعين للون الافتراضي للرابط */
+        text-decoration: none; /* وهنا لو هنشيل السطر ال تحت اللنك */
+        font-size: 27px;
+    }
+
+    #a2 {
+        color: green; /* وهنا لو هنعمل تعين للون الافتراضي للرابط */
+        text-decoration: none; /* وهنا لو هنشيل السطر ال تحت اللنك */
+        font-size: 27px; /* ده حجم الخط الطبيعى */
+    }
+
+    #a3a {
+        color: #000; /* وهنا لو هنعمل تعين للون الافتراضي للرابط */
+        text-decoration: none; /* وهنا لو هنشيل السطر ال تحت اللنك */
+        font-size: 30px; /* ده حجم الخط الطبيعى */
+        margin-right: 50%;
+    }
+
+        /* تعيين حجم الخط وتغييره عند اما الموس تقف عليه */
+        #a3a:hover {
+            font-size: 29px;
+            transition: all 0.3s ease; /* تمكين التحويل التدريجي لتغيير الحجم بسلاسة خلال 0.3 ثانية */
+            opacity: 0.5; /* تقليل شفافية النص المحدد عند التحويم */
+        }
+
+    /* تغيير حجم الخط وشفافيته عند اما الموس تقف عليه */
+    #a1:hover {
+        font-size: 29px; /* تحديد حجم الخط الجديد عند اما الموس تقف عليه */
+        opacity: 0.8; /* تقليل شفافية النص المحدد عند اما الموس تقف عليه */
+    }
+
+
+    #a2:hover {
+        font-size: 29px; /*ده حجم الخط بعد ما الموس تقف عليه */
+        opacity: 0.8; /* تقليل شفافية النص المحدد عند اما الموس تقف عليه */
+    }
+
+    /* تحديد موضع وأسلوب العرض لعناصر الفيديو */
+    .mov {
+        margin-left: 10%; /* تحديد المسافة بين العنصر والحافة اليسرى للصفحة */
+        margin-top: -1px; /* تحديد المسافة بين العنصر والحافة العلوية للصفحة */
+        display: inline-block; /* جعل العنصر يظهر على سطر واحد مع العناصر الأخرى */
+        display: flex; /* استخدام الـ Flexbox للتحكم بتوزيع العناصر */
+        justify-content: space-between; /* تحديد المسافة الأفقية بين العناصر */
+    }
+
+
+    .back-button {
+        margin-left: 15px;
+        border: none; /*هنا بنشيل البوردر من الزرار*/
+        background-color: #ffffff; /*هنا لون خلفية الزرار*/
+        height: 33px; /*يحدد ارتفاع الزر بـ 48 بيكسل */
+        width: 25px; /*يحدد عرض الزر بـ 50 بيكسل*/
+        border-radius: 50%; /*يجعل حواف الزر دائرية بنسبة 50% من ارتفاع الزر*/
+        transition: all 0.3s ease; /*يعمل على إضافة تأثير تدريجي على الخصائص المحددة عند حدوث تغييرات عليها.*/
+    }
+
+    .divr {
+        display: inline-block; /* يجعل العنصر يظهر في سطر واحد مع العناصر الأخرى */
+        font-family: 'Alkatra'; /* تحديد نوع الخط */
+        margin-top: 20px; /* تحديد المسافة بين العنصر والحافة العلوية للصفحة */
+        margin-left: 8%; /* تحديد المسافة بين العنصر والحافة اليسرى للصفحة */
+    }
+
+
+    .back-button:hover {
+        transform: scale(1.1); /*ده بيحدد الحجم بعد التغير*/
+    }
+
+    .arrow {
+        font-size: 25px; /*ده حجم الخط*/
+        color: #000; /*وده لونه*/
+    }
+
+    .text {
+        margin-left: 15px; /* تحديد المسافة بين النص والحافة اليسرى للعنصر الذي يحتوي عليه */
+        font-size: 20px; /* تحديد حجم النص */
+        margin-top: 3%; /* تحديد المسافة بين النص والحافة العلوية للعنصر الذي يحتوي عليه */
+    }
+
+    .textwellcome {
+        font-size: 25px; /* حجم الخط */
+        font-family: 'Alkatra'; /* نوع الخط */
+        width: 50%; /* عرض العنصر */
+        margin-left: 80%; /* المسافة بين اليمين والحافة اليسرى للصفحة */
+        text-align: left; /* تحديد محاذاة النص إلى اليسار */
+        margin-left: 45%; /* المسافة بين اليمين والحافة اليسرى للعنصر نفسه */
+    }
+
+    .wellcomename {
+        font-size: 30px; /* حجم الخط */
+        font-family: 'Pacifico'; /* نوع الخط */
+        width: 50%; /* عرض العنصر */
+        text-align: left; /* تحديد محاذاة النص إلى اليسار */
+        margin-top: 5%; /* المسافة بين العنصر والحافة العلوية للصفحة */
+        margin-left: 45%; /* المسافة بين اليمين والحافة اليسرى للعنصر نفسه */
+    }
+
+    #bottom {
+        background-color: #D8A533; /* لون خلفية العنصر */
+        border: none; /* عدم وجود حدود للعنصر */
+        border-radius: 20px; /* انحناء حواف العنصر */
+        font-weight: 900; /* سمك الخط */
+        width: 180px; /* عرض العنصر */
+        height: 45px; /* ارتفاع العنصر */
+        color: white; /* لون النص */
+        margin-top: 1%; /* المسافة بين العنصر والحافة العلوية للصفحة */
+        box-shadow: 5px 5px 5px 5px #C7C5C5; /* تأثير ظل للعنصر */
+        margin-left: 60%; /* المسافة بين اليمين والحافة اليسرى للعنصر */
+    }
+
+        #bottom:hover {
+            font-size: 20px; /* حجم الخط بعد تمرير المؤشر فوق العنصر */
+            transition: all 0.3s ease; /* وقت التأثير الانتقالي */
+            opacity: 0.5; /* شفافية العنصر بعد تمرير المؤشر فوقه */
+        }
+
+</style>
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/Homepage/Logout";
+        }, 300000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
+
+<script src="https://kit.fontawesome.com/260c226195.js" crossorigin="anonymous"></script>

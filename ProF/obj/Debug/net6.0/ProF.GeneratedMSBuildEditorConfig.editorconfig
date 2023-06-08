@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProF
+build_property.RootNamespace = ProF
+build_property.ProjectDir = C:\Users\Ahmed Ali\Downloads\New folder (4)\ProF (1) (1)\ProF (1)\ProF\ProF\ProF\ProF\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ahmed Ali\Downloads\New folder (4)\ProF (1) (1)\ProF (1)\ProF\ProF\ProF\ProF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Admin/ADD_DELETE_UPDATA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQUREX0RFTEVURV9VUERBVEEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Admin/login_admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbG9naW5fYWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/comment/comment_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tbWVudFxjb21tZW50XzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/comment/think.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tbWVudFx0aGluay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Homepage/page1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VccGFnZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Homepage/page2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VccGFnZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/ADD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxBREQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/AddToCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxBZGRUb0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/ADD_Item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxBRERfSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/fast_food.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxmYXN0X2Zvb2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/list_Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxsaXN0X0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/list_updata.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxsaXN0X3VwZGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/Next_Item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxOZXh0X0l0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/item/special_food.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXRlbVxzcGVjaWFsX2Zvb2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/offers/pageoffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncb2ZmZXJzXHBhZ2VvZmZlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/pageapps/page9apps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFnZWFwcHNccGFnZTlhcHBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/pageopps/page9apps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGFnZW9wcHNccGFnZTlhcHBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/payment/payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF5bWVudFxwYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Register_User/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJfVXNlclxyZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Register_User/wellcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJfVXNlclx3ZWxsY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/search/Index_Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2VhcmNoXEluZGV4X1NlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/search/Item_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2VhcmNoXEl0ZW1fRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Ali/Downloads/New folder (4)/ProF (1) (1)/ProF (1)/ProF/ProF/ProF/ProF/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-13as00nuv9

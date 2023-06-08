@@ -1,0 +1,362 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-1234567890abcdefghijklmnopqrstuvwxy" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>@ViewData["Title"] - Your_REST</title>
+@{
+	Layout = "";
+}
+<style>
+	body {
+		background-image: url(/img/_143.jpg); /* تعيين صورة الخلفية */
+		background-size: 100% 100%; /* تغطية الشاشة بالصورة */
+	}
+
+	#h2Log_out {
+		background-color: #D8A533; /* لون خلفية العنصر */
+		border: none; /* عدم وجود حدود للعنصر */
+		border-radius: 20px; /* انحناء حواف العنصر */
+		font-weight: 900; /* سمك الخط */
+		width: 150px; /* عرض العنصر */
+		height: 40px; /* ارتفاع العنصر */
+		color: white; /* لون النص */
+		margin-top: 1%; /* المسافة بين العنصر والحافة العلوية للصفحة */
+		/*margin-left: 60%; /* المسافة بين اليمين والحافة اليسرى للعنصر */
+	}
+
+	#h2A {
+		font-family: 'Odor Mean Chey';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 48px;
+		line-height: 87px;
+		color: #000000;
+	}
+
+	#pa2A {
+		font-family: 'Sassy Frass';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 25px;
+		color: rgba(0, 0, 0, 0.96);
+		width: 40%
+	}
+
+</style>
+
+
+<div style="margin-left:10% ;margin-top:3% ;position:relative ; display:inline-block ; float:left">
+	 <a asp-action="wellcome" asp-controller="Register_User">	<i class="fa">&#xf053;</i> </a>
+</div>
+
+<div style="margin-right:3% ;margin-top:3% ;position:relative ; display:inline-block ; float:right;">
+	<input type="submit" id="h2Log_out" value="Log_Out">
+
+</div>
+<br style="clear:both" />
+
+<div style="margin-top:3%;margin-left:7%">
+	<h2 id="h2A">@ViewBag.name</h2>
+	<p id="pa2A">
+		@ViewBag.description
+	</p>
+	<img src="~/img1/@ViewBag.image" style="position:absolute;left:65% ; width:30% ;margin-top:-18%; height:40%" />
+</div>
+
+<br />
+<br />
+<div>
+	<div style="margin-left:10%;margin-top:1%;">
+		<input type="checkbox" id="heart-checkbox">
+		<label for="heart-checkbox">
+			<span class="fa fa-heart"></span>
+		</label>
+	</div>
+	<div style="margin-left:18%;margin-top:-2.1%;">$@ViewBag.cost</div>
+	<div class="cart-container">
+
+		<div class="cart-controls">
+			<button class="minus-btn" onclick="decrement()">-</button>
+		</div>
+		<div class="cart-counter">
+			<span class="counter">0</span>
+		</div>
+		<div class="cart-controls">
+			<button class="plus-btn" onclick="increment()">+</button>
+		</div>
+	</div>
+	<div class="cart-icon">
+		<a asp-action="AddToCart" asp-controller="item" asp-route-id="@ViewBag.id" class="btn btn-primary">  	<i class="fa">&#xf07a;</i> </a>
+		<span class="counter">0</span>
+	</div>
+</div>
+
+<div style="position:absolute; right:5% ; background-color:white ; width:180px ; height:50px ; margin-top:-2% ; font-weight: 900; border-radius:15px;">
+	<p style="color:#D8A533 ; position:absolute ; padding-left:20px"> Fast , Light Food</p>
+</div>
+
+
+
+
+
+
+
+<style>
+
+	.star-rating {
+		unicode-bidi: bidi-override;
+		direction: rtl;
+	}
+
+		.star-rating > span {
+			display: inline-block;
+			position: relative;
+			width: 1.1em;
+		}
+
+			.star-rating > span:hover:before,
+			.star-rating > span:hover ~ span:before {
+				content: "\2605";
+				position: absolute;
+				color: #FFD700;
+			}
+
+			.star-rating > span:before {
+				content: "\2606";
+				position: absolute;
+			}
+
+	.rating {
+		display: inline-block;
+		font-size: 0;
+	}
+
+		.rating .fa {
+			font-size: 40px;
+			cursor: pointer;
+			transition: color 0.25s ease;
+		}
+
+			.rating .fa:hover {
+				color: #F9BD38;
+			}
+
+			.rating .fa.active,
+			.rating .fa.selected {
+				color: #F9BD38;
+			}
+
+			.rating .fa.hover {
+				color: #F9BD38;
+			}
+
+</style>
+<style>
+
+	.cart-container {
+		display: flex;
+		font-size: 15px;
+		width: 4.5%;
+		height: 4%;
+		border: 3px solid #f9bd38;
+		border-radius: 10px;
+		margin-left: 21%;
+		margin-top: -2.1%;
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	}
+
+	.cart-controls {
+		display: flex;
+		margin-top: 1px;
+		margin-left: 1px;
+		margin-right: 2px;
+		padding: -20px;
+	}
+
+	.cart-counter {
+		display: flex;
+		justify-content: center;
+		width: 50%;
+		height: 100%;
+	}
+
+	.cart-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		color: #000;
+		font-size: 20px;
+		cursor: pointer;
+		margin-left: 13%;
+		margin-top: -3.1%;
+	}
+
+		.cart-icon .counter {
+			position: absolute;
+			top: 5px;
+			right: 8px;
+			color: #000;
+			font-size: 10px;
+			display: flex;
+		}
+
+	.minus-btn {
+		width: 15px;
+		height: 15px;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		color: #000;
+		background-color: #fff;
+		cursor: pointer;
+	}
+
+	.plus-btn {
+		width: 15px;
+		height: 15px;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		color: #000;
+		background-color: #fff;
+		cursor: pointer;
+	}
+
+		.minus-btn:hover,
+		.plus-btn:hover {
+			background-color: azure;
+		}
+
+		.minus-btn:focus,
+		.plus-btn:focus {
+			outline: none;
+		}
+
+	.heart-label {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-color: transparent;
+		border-radius: 80%;
+		border: 1px solid;
+		border-color: #f2bd38;
+		text-align: center;
+		line-height: 30px;
+		cursor: pointer;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+	}
+
+	input[type="checkbox"] {
+		display: none;
+	}
+
+	label > .fa-heart:before {
+		content: "\f08a";
+		color: #f2bd38;
+	}
+
+	input[type="checkbox"]:checked + label > .fa-heart:before {
+		content: "\f004";
+		color: red;
+	}
+
+
+	.fa {
+		font-size: 29px;
+		color: black;
+	}
+
+	.back-button {
+		border: none; /*هنا بنشيل البوردر من الزرار*/
+
+		height: 38px; /*يحدد ارتفاع الزر بـ 48 بيكسل */
+		width: 40px; /*يحدد عرض الزر بـ 50 بيكسل*/
+		border-radius: 50%; /*يجعل حواف الزر دائرية بنسبة 50% من ارتفاع الزر*/
+		transition: all 0.3s ease; /*يعمل على إضافة تأثير تدريجي على الخصائص المحددة عند حدوث تغييرات عليها.*/
+		font-size: 50px;
+	}
+
+	.triangle-button-left {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 0;
+		height: 0;
+		border-top: 25px solid transparent;
+		border-bottom: 25px solid transparent;
+		border-right: 40px solid #f2bd38;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		border-left: none;
+	}
+
+		.triangle-button-left:hover {
+			border-right: 20px solid #f2bd38;
+			color: white;
+		}
+
+	.triangle-button-right {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 0;
+		height: 0;
+		border-top: 25px solid transparent;
+		border-bottom: 25px solid transparent;
+		border-left: 40px solid #f2bd38;
+		background-color: black;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		border-right: none;
+	}
+
+		.triangle-button-right:hover {
+			border-left: 20px solid #f2bd38;
+		}
+
+</style>
+<script>
+
+	let timeoutId;
+
+	function resetTimer() {
+		clearTimeout(timeoutId);
+		timeoutId = setTimeout(function () {
+			window.location.href = "/Homepage/Logout";
+		}, 100000); // 5 seconds
+	}
+
+	// تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+	document.addEventListener("mousemove", resetTimer);
+	document.addEventListener("keypress", resetTimer);
+
+	// يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+	resetTimer();
+</script>
+
+<script>
+	let counter = 0;
+	const counterElement = document.querySelector('.counter');
+	const cartCounterElement = document.querySelector('.cart-icon .counter');
+
+	function increment() {
+		counter++;
+		counterElement.innerText = counter;
+		cartCounterElement.innerText = counter;
+	}
+
+	function decrement() {
+		if (counter > 0) {
+			counter--;
+			counterElement.innerText = counter;
+			cartCounterElement.innerText = counter;
+		}
+	}
+</script>
+

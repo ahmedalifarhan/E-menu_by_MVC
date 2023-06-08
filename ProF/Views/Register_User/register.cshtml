@@ -1,0 +1,193 @@
+﻿@{
+    Layout = "";
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+
+<title>@ViewData["Title"] - Your_REST</title>
+<style>
+    /** {
+            margin: 0;
+            padding: 0;
+            margin-top: -1%;
+        }*/
+
+    body {
+        background-image: url(/img/i2.png);
+        background-size: cover;
+        /*margin-top:-2%;*/
+    }
+
+    .h1 {
+        margin-left: 15%; /* تعليق عن الهامش الأيسر */
+        margin-top: 4%; /* تعليق عن الهامش العلوي */
+        font-family: Lobster; /* تعليق عن نوع الخط */
+        font-size: 90px; /* تعليق عن حجم الخط */
+    }
+
+    #men {
+        position: absolute; /* يحدد نوع التحديد و هنا هو absolute */
+        left: 24.7%; /* يحدد المسافة من اليسار للعنصر */
+        top: 30%; /* يحدد المسافة من الأعلى للعنصر */
+        box-shadow: 5px #C7C5C5; /* لإضافة ظل للعنصر */
+    }
+
+
+        /* تحديد تأثير الرمز المميز عند اما الموس تقف عليه */
+        #men:hover {
+            font-size: 20px; /* زيادة حجم الخط عند التحويم */
+            transition: all 0.3s ease; /* تحويل التغييرات بشكل سلسل وبسرعة */
+            opacity: 0.5; /* خفض الشفافية عند التحويم */
+        }
+
+    #fname {
+        /* تحديد موضع العنصر بشكل مطلق على الصفحة */
+        position: absolute;
+        /* تحديد المسافة الأفقية من اليسار لموضع العنصر */
+        left: 16%;
+        /* تحديد المسافة العمودية من الأعلى لموضع العنصر */
+        top: 53%;
+        /* إضافة تأثير الظل للحافة الخارجية للصندوق */
+        box-shadow: 0px 0px 3px 3px #C7C5C5;
+        /* تحديد لون الحدود الخارجية للصندوق */
+        border-color: #D8A533;
+        /* تحديد العرض للصندوق */
+        width: 12%;
+        /* تحديد الارتفاع للصندوق */
+        height: 5%;
+        /* إضافة شكل مستدير لحواف الصندوق */
+        border-radius: 1%;
+        /* تحديد المسافة بين نص الصندوق وحافته */
+        padding-left: 1%;
+        /* تحديد حجم الخط لنص الصندوق */
+        font-size: 17px;
+        /* تحديد لون النص داخل الصندوق */
+        color: black;
+        /* تحديد نوع الخط الذي يستخدم في نص الصندوق */
+        font-family: Comfortaa;
+    }
+
+
+    #lname {
+        /* تحديد خصائص العنصر بالنسبة للصفحة */
+        position: absolute;
+        /* تحديد موقع العنصر على المحور الأفقي بنسبة مئوية من الشاشة */
+        left: 30%;
+        /* تحديد موقع العنصر على المحور الرأسي بنسبة مئوية من الشاشة */
+        top: 53%;
+        /* تعيين ظلال للعنصر */
+        box-shadow: 0px 0px 3px 3px #C7C5C5;
+        /* تعيين لون حدود العنصر */
+        border-color: #D8A533;
+        /* تحديد عرض العنصر */
+        width: 12%;
+        /* تحديد ارتفاع العنصر */
+        height: 5%;
+        /* تحديد نسبة انحناء حواف العنصر */
+        border-radius: 1%;
+        /* تحديد مسافة النص عن حافة العنصر */
+        padding-left: 1%;
+        /* تحديد حجم الخط */
+        font-size: 17px;
+        /* تحديد لون النص */
+        color: black;
+        /* تحديد الخط المستخدم */
+        font-family: Comfortaa;
+    }
+
+
+    #tnum {
+        position: absolute; /* تحديد نوعية الترتيب للعنصر */
+        left: 16%; /* تحديد موقع العنصر من الجهة اليسرى */
+        top: 61%; /* تحديد موقع العنصر من الجهة العلوية */
+        box-shadow: 0px 0px 3px 3px #C7C5C5; /* إضافة ظل للصندوق */
+        border-color: #D8A533; /* تحديد لون الحدود الخارجية للصندوق */
+        width: 26%; /* تحديد عرض الصندوق */
+        height: 5%; /* تحديد ارتفاع الصندوق */
+        border-radius: 1%; /* تحديد شكل زوايا الحدود الخارجية للصندوق */
+        padding-left: 1%; /* تحديد هوامش داخلية من الجهة اليسرى */
+        font-size: 17px; /* تحديد حجم الخط */
+        color: black; /* تحديد لون النص */
+        font-family: Comfortaa; /* تحديد نوع الخط */
+    }
+
+
+    #bottom {
+        /* بداية تعريف الزر */
+        background-color: #D8A533; /* تعيين لون خلفية الزر */
+        cursor: pointer; /* تحويل المؤشر إلى يد عند تحويله فوق الزر */
+        border: none; /* إزالة حدود الزر */
+        border-radius: 20px; /* تعيين شكل الحواف */
+        font-weight: 700; /* تعيين سمك الخط */
+        width: 180px; /* تعيين عرض الزر */
+        height: 45px; /* تعيين ارتفاع الزر */
+        color: white; /* تعيين لون النص */
+        position: absolute; /* تعيين نوع التحديد للعنصر على الشاشة */
+        left: 21%; /* تحديد موقع الزر من اليسار */
+        top: 73%; /* تحديد موقع الزر من الأعلى */
+        box-shadow: 5px 5px 5px 5px #C7C5C5; /* إضافة تظليل للزر */
+    }
+
+        #bottom:hover {
+            /* تفعيل خصائص الزر عند تحويل المؤشر فوقه */
+            font-size: 20px; /* تكبير حجم الخط */
+            transition: all 0.3s ease; /* تفعيل انتقال سلس بين الحالات */
+            opacity: 0.5; /* تخفيف شفافية الزر */
+        }
+
+    #input:hover {
+        /* تفعيل خصائص النص عند تحويل المؤشر فوقه */
+        color: #000000; /* تغيير لون النص إلى الأسود */
+    }
+
+
+
+    form {
+        /*        background-color: #f2f2f2;
+    */ padding: 20px;
+        border-radius: 5px;
+    }
+
+
+
+    /* هذا الكود يستهدف جميع الحقول النصية في الصفحة */
+    input[type="text"] {
+        /* هذه الخاصية تحدد الابعاد الداخلية للحقل النصي */
+        padding: 10px;
+        /* هذه الخاصية تحدد شدة انحناء حواف الحقل النصي */
+        border-radius: 5px;
+        /* هذه الخاصية تحدد نوع وحجم الحدود التي تحيط بالحقل النصي */
+        border: 1px solid #ccc;
+        /* هذه الخاصية تحدد حجم الخط داخل الحقل النصي */
+        font-size: 16px;
+    }
+
+
+    input[type="submit"] {
+        background-color: #4CAF50; /* لون خلفية الزر */
+        color: #fff; /* لون نص الزر */
+        padding: 10px 20px; /* التباعد بين حواف الزر ونصه */
+        border-radius: 5px; /* شكل حواف الزر */
+        border: none; /* إزالة الحدود */
+        font-size: 16px; /* حجم الخط */
+        cursor: pointer; /* شكل المؤشر عند تحوي الفأرة على الزر */
+    }
+
+</style>
+<div class="h1">
+    Registration
+</div>
+<a asp-action="page1" asp-controller="homepage"><img src="/img/men.png" id="men" width="100" height="100" /></a>
+<form asp-action="register2" asp-controller="Register_User" method="post">
+    <input type="text" id="fname" name="firstName" required placeholder="FirstName">
+    <input type="text" id="lname" name="lastName" required placeholder="LastName">
+    <input type="text" id="tnum" name="idNumber" required placeholder="Table Number">
+    <input type="submit" id="bottom" value="Submit">
+</form>

@@ -1,0 +1,96 @@
+﻿@model ProF.Models.item
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>item</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="item_id" />
+            <div class="form-group">
+                <label asp-for="item_Name" class="control-label"></label>
+                <input asp-for="item_Name" class="form-control" />
+                <span asp-validation-for="item_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="item_Description" class="control-label"></label>
+                <input asp-for="item_Description" class="form-control" />
+                <span asp-validation-for="item_Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="item_Cost" class="control-label"></label>
+                <input asp-for="item_Cost" class="form-control" />
+                <span asp-validation-for="item_Cost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="item_image" class="control-label"></label>
+                <input asp-for="item_image" class="form-control" />
+                <span asp-validation-for="item_image" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="category" class="control-label"></label>
+                <input asp-for="category" class="form-control" />
+                <span asp-validation-for="category" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="stars" class="control-label"></label>
+                <input asp-for="stars" class="form-control" />
+                <span asp-validation-for="stars" class="text-danger"></span>
+            </div>
+            <!--   <div class="form-group">
+                   <label asp-for="item_image" class="control-label"></label>
+                   <input asp-for="item_image" class="form-control" type="file" name="img_file" />
+                   <span asp-validation-for="item_image" class="text-danger"></span>
+               </div>
+                  -->
+            <div class="form-group">
+                <label asp-for="adminID" class="control-label"></label>
+                <input asp-for="adminID" class="form-control" asp-items="ViewBag.adminID">
+                <span asp-validation-for="adminID" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ADD">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script>
+
+    let timeoutId;
+
+    function resetTimer() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function () {
+            window.location.href = "/admin/login_admin";
+        }, 300000); // 5 seconds
+    }
+
+    // تم استدعاء resetTimer عند تحريك الماوس أو الضغط على أي مفتاح
+    document.addEventListener("mousemove", resetTimer);
+    document.addEventListener("keypress", resetTimer);
+
+    // يمكن أيضًا استدعاء resetTimer مباشرةً عند بدء التحميل لصفحة ال welcome
+    resetTimer();
+</script>
